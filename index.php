@@ -84,7 +84,7 @@
             <div class="col mt-5">
                 <?php
                   include("conexao.php");
-                  switch (@$_REQUEST["page"]) {
+                  switch ($_REQUEST["page"]) {
                     case "produtos":
                         include("cadastro_produto.php");
                         break;
