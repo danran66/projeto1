@@ -2,7 +2,7 @@
 <link href="css.css" rel="stylesheet"></link>
 
 <form action="?page=produtos" method="POST">
-    <input type="hidden" name="acao" value="cadastrar">
+    <input type="hidden" name="acao" value="salvar">
     <div class="mb-3">
         <label>Descrição do Produto</label>
         <input type="text" name="descricao_prod" class="form-control">
