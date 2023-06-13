@@ -1,5 +1,5 @@
 <?php
-$acao = isset($_POST['acao']) ? $_POST['acao'] : '';
+$acao = isset($_GET['acao']) ? $_GET['acao'] : '';
 
 switch ($acao) {
 
