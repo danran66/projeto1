@@ -5,7 +5,7 @@
     $row = $res->fetch_object();
 ?>
 
-<form action="?page=editar_fornecedor" method="POST">
+<form action="?page=salvar_fornecedor" method="POST">
     <input type="hidden" name="acao_fornecedor" value="editar_fornecedor">
     <div class="mb-3">
         <label>Nome do Fornecedor</label>
