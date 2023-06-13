@@ -86,7 +86,7 @@
                   include("conexao.php");
                   switch ($_GET["page"]) {
                     case "produtos":
-                        include("cadastro_produto.php");
+                        include("salvar_usuario.php");
                         break;
                     case "salvar":
                         include("salvar_usuario.php");
