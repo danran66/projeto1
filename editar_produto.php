@@ -6,7 +6,7 @@
 ?>
 
 <form action="?page=editar" method="POST">
-    <input type="hidden" name="acao" value="editar">
+    <input type="hidden" name="acao" value="salvar">
     <div class="mb-3">
         <label>Descrição do Produto</label>
         <input type="text" name="descricao_prod" value="<?php
