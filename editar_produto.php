@@ -5,7 +5,7 @@
     $row = $res->fetch_object();
 ?>
 
-<form action="?page=salvar" method="POST">
+<form action="?page=editar" method="POST">
     <input type="hidden" name="acao" value="cadastrar">
     <div class="mb-3">
         <label>Descrição do Produto</label>
