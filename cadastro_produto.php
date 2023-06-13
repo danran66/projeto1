@@ -1,7 +1,7 @@
 <h1>Cadastro de Produtos</h1>
 <link href="css.css" rel="stylesheet"></link>
 
-<form action="?page=produtos" method="GET">
+<form action="?page=produtos" method="POST">
     <input type="hidden" name="acao" value="cadastrar">
     <div class="mb-3">
         <label>Descrição do Produto</label>
